@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_bariwala">
+   <!-- <fragment
+        android:id="@+id/navigation_startfrag"
+        android:name="com.saidur.bari.ui.StartFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/start_to_bariwala"
+            app:destination="@id/navigation_bariwala" />
+        <action
+            android:id="@+id/start_to_varatia"
+            app:destination="@id/navigation_varatia" />
+    </fragment>-->
+    <fragment
+        android:id="@+id/navigation_bariwala"
+        android:name="com.saidur.bari.ui.bariwala.BariwalaFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_bariwala" >
+
+    </fragment>
+
+
+
+   <!-- <activity android:id="@+id/start"
+        android:name="com.saidur.bari.Start"
+        tools:layout="@layout/activity_start">
+        <action
+            android:id="@+id/start_to_bariwala"
+            app:destination="@id/navigation_bariwala" />
+        <action
+            android:id="@+id/start_to_varatia"
+            app:destination="@id/navigation_varatia" />
+    </activity>-->
+</navigation>

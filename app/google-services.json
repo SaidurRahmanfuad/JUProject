@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "102789505337",
+    "project_id": "varatia-4786f",
+    "storage_bucket": "varatia-4786f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102789505337:android:924d81dcf42d1cd5cec8e8",
+        "android_client_info": {
+          "package_name": "com.saidur.bari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102789505337-0monmb6o0tn5m872spo4ekoma12i8veh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saidur.bari",
+            "certificate_hash": "be840e160e4d19a44a94c4001978d78502a7459d"
+          }
+        },
+        {
+          "client_id": "102789505337-ac6a21pl5l65rkqjof4f3ia10tqppqcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPbTc_0j-YgfRiJNY8q76dJyxXdZdwaA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102789505337-ac6a21pl5l65rkqjof4f3ia10tqppqcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
